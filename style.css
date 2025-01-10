@@ -108,16 +108,98 @@ body{
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .paragraph{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .cart-container-02{
     display: flex;
 }
+.cart-container-02{
+    gap: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bg-color-01{
+    background-color: #5490F533;
+}
+.bg-color-02{
+    background-color: #C6E4D6;
+}
+.bg-color-03{
+    background-color: #F7EBCF;
+}
+
+.quote-01{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 50px 25px;
+}
+.quote-container{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.openion-container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.openion{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Your openion Matters starts here */
+.opinion{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+table th {
+    font-size: 16px;
+    color: #555;
+  }
+table td select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+.color{
+    background-color: #C6E4D6;
+  }
+.margin{
+    margin-left: 20px;
+ }
+ table option{
+    text-align: center;
+ }
+ .color-02{
+    background-color: #C6E4D6;
+ }
+
+
 
 
 
