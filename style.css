@@ -179,6 +179,16 @@ body{
     padding-left: 50px;
     padding-right: 50px;
 }
+.quote-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+.author{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
 .openion-container{
     padding-left: 50px;
     padding-right: 50px;
@@ -348,6 +358,22 @@ table td select {
 }
 .card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
     background-color: #09A15C;
+}
+.card-title-02{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-description-02{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
 }
 .card-container{
     padding-left: 50px;
