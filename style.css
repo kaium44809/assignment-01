@@ -39,6 +39,10 @@ body{
     background: rgb(0, 106, 80);
     padding: 17px 34px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+
 }
 .btn-03{
     color: rgb(255, 255, 255);
@@ -48,6 +52,8 @@ body{
     border-radius: 8px;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .btn-04{
     color: rgb(255, 255, 255);
@@ -57,6 +63,8 @@ body{
     border-radius: 8px;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .btn-05{
     color: rgb(255, 255, 255);
@@ -66,6 +74,8 @@ body{
     border-radius: 8px;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 /* Banner -01 section starts here */
@@ -94,15 +104,19 @@ body{
 .img-fluid{
     padding: 80px 60px;
 }
-.cart-container{
+.card-container{
     display: flex;
     gap: 24px;
     margin-left: 50px;
 }
-.cart{
+.card{
     box-shadow: 0px 4px 50px rgb(202, 196, 196);
     padding: 30px;
     border-radius: 16px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: lightgreen;
 }
 .vision{
     color: rgb(14, 14, 14);
@@ -119,10 +133,10 @@ body{
     padding-left: 50px;
     padding-right: 50px;
 }
-.cart-container-02{
+.card-container-02{
     display: flex;
 }
-.cart-container-02{
+.card-container-02{
     gap: 24px;
     padding-left: 50px;
     padding-right: 50px;
@@ -256,6 +270,8 @@ table td select {
     padding: 13px 26px 13px 26px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 /* Donate today section starts here */
@@ -275,7 +291,7 @@ table td select {
 }
 
 /* Donate Today section starts here */
-.cart-1{
+.card-1{
     color: #0E0E0ECC;
     font-size: 40px;
     font-weight: 700;
@@ -284,7 +300,7 @@ table td select {
     border-radius: 16px;
     padding: 30px;
 }
-.cart-2{
+.card-2{
     color: #0E0E0ECC;
     font-size: 40px;
     font-weight: 700;
@@ -295,7 +311,7 @@ table td select {
     border-radius: 16px;
     padding: 30px;
 }
-.cart-3{
+.card-3{
     color: #0E0E0ECC;
     font-size: 40px;
     font-weight: 700;
@@ -304,7 +320,7 @@ table td select {
     border-radius: 16px;
     padding: 30px;
 }
-.cart-4{
+.card-4{
     color: #0E0E0ECC;
     font-size: 40px;
     font-weight: 700;
@@ -313,7 +329,10 @@ table td select {
     border-radius: 16px;
     padding: 30px;
 }
-.cart-container{
+.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
+    background-color: #09A15C;
+}
+.card-container{
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -340,6 +359,9 @@ table td select {
     border-radius: 8px;
     justify-content: center;
     border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .button-01{
     text-align: center;
@@ -372,6 +394,8 @@ table td select {
     width: 150px;
     height: 70px;
     margin-left: 0px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .note{
     color: rgba(14, 14, 14, 0.7);
@@ -408,6 +432,24 @@ table td select {
 }
 
 /* bangladesh 2.0 section ends here */
+
+/* mouse hover */
+.btn-01:hover,.btn-02:hover,.btn-04:hover,.btn-06:hover,.btn-07:hover,.btn-08:hover{
+    background-color: darkgreen;
+}
+.btn-03:hover{
+    background-color: #0649bd;
+}
+.btn-05:hover{
+    background-color: #fdb408;
+}
+.text-field{
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 465px 20px 465px;
+}
 
 
 
