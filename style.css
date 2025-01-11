@@ -68,13 +68,7 @@ body{
     padding: 10px 20px;
     border: none;
 }
-.btn-06{
-    color: #FFFFFF;
-    background-color: #006A50;
-    padding: 13px 26px 13px 26px;
-    border-radius: 8px;
-    border: none;
-}
+
 /* Banner -01 section starts here */
 .banner-01{
     border-radius: 24px;
@@ -251,6 +245,13 @@ table td select {
 }
 .description-02{
     color: #0E0E0EB3;
+}
+.btn-06{
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    border: none;
 }
 
 
