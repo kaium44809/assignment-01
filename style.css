@@ -68,6 +68,13 @@ body{
     padding: 10px 20px;
     border: none;
 }
+.btn-06{
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    border: none;
+}
 /* Banner -01 section starts here */
 .banner-01{
     border-radius: 24px;
@@ -195,10 +202,56 @@ table td select {
  table option{
     text-align: center;
  }
- .color-02{
+.color-02{
     background-color: #C6E4D6;
  }
 
+ /* recents news section starts here */
+.recent-news-section{
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+ }
+.news{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+ }
+.recent{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.recent-news{
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+.margin-left{
+    margin-left: 48px;
+}
+.margin-right{
+    margin-right: 48px;
+}
+.img-02{
+    margin: 48px 32px 48px 48px;
+    border-radius: 24px;
+}
+.satelite{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+.margin{
+    margin-right: 500px;
+    color: #0E0E0EB3;
+}
+.description-02{
+    color: #0E0E0EB3;
+}
 
 
 
